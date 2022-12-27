@@ -20,7 +20,7 @@ Book authoring experience provides the following features with this repository:
 - Template chapters with commonly used formatting in books.
 - Chapters are structured into their own chapter directories so they can be co-located with their images and other assets, such as code snippets.
 - A PDF output that uses a theme, and can be customized.
-- A PDF output that uses custom fonts (Google's open fonts family). Specifically, an `Open Sans` font for the body text, and a `Source Code Pro` font for source code snippets and inline code.
+- A PDF output that uses custom fonts (Google's open fonts family). Specifically, an [Open Sans](https://fonts.google.com/specimen/Open+Sans) font for the body text, and a [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro) font for source code snippets and inline code.
 
 Book generation:
 - No need for a local installation of Asciidoctor, as the book generation is done via Docker.
@@ -77,9 +77,11 @@ The asciidoc book starter repository also provides a few helpful scripts to help
 - `create-book-epub.sh` - Generates the book in EPUB format.
 - `interactive-asciidoctor-shell.sh` - Starts an interactive shell inside the Docker image with the `asciidoctor` tool installed.
 
-## Assets
+## AsciiDoc Book Assets
 
-TBD
+Static assets for the book are stored in the `book` directory, and include the following:
+- The `images` directory is where you can store images that are used in the book.
+- The `fonts` directory is where you can store fonts that are used in the book. It currently houses the [Open Sans](https://fonts.google.com/specimen/Open+Sans) and [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+pro) fonts, both with their original `.zip` file archived as downloaded from the Google Fonts website as well as extracted each to its own directory.
 
 ## Author
 
