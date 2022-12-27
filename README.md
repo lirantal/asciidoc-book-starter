@@ -27,7 +27,7 @@ Book generation:
 - No need for special CI setup, as the book generation is done via Docker.
 - Docker-based scripts to generate the book in various formats, including PDF, HTML and EPUB.
 
-## Getting Started
+## Getting Started with AsciiDoc Book Starter
 
 We start off by getting familiar with the repository structure and the various files that are part of it.
 
@@ -55,9 +55,9 @@ The `book` directory is where the book content is stored:
 - The `chapter-01.adoc` is an example chapter that you can use as a template for your own chapters.
 - In the same directory, you'll find the theme-able PDF `themes` directory, and the `fonts` directory which contains the fonts used in the book.
 
-## Building the book
+## Generate the AsciiDoc book
 
-### Building the book locally
+### Building the AsciiDoc book locally
 
 To build the book locally, you'll need to have Docker installed on your machine. Once you have Docker installed, you can run the following command to build the book in PDF format:
 
@@ -70,6 +70,12 @@ Then you can find the generated PDF file in the `book` directory. If you're on a
 ```bash
 open book/index.pdf
 ```
+
+### Helpful AsciiDoc Scripts
+
+The asciidoc book starter repository also provides a few helpful scripts to help you generate other book output formats and debug the asciidoctor tool:
+- `create-book-epub.sh` - Generates the book in EPUB format.
+- `interactive-asciidoctor-shell.sh` - Starts an interactive shell inside the Docker image with the `asciidoctor` tool installed.
 
 ## Assets
 
