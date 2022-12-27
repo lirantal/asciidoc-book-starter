@@ -1,3 +1,5 @@
+[![book-generate-pdf](https://github.com/lirantal/asciidoc-book-starter/actions/workflows/book-generate-pdf.yaml/badge.svg?branch=main)](https://github.com/lirantal/asciidoc-book-starter/actions/workflows/book-generate-pdf.yaml)
+
 # AsciiDoc Book Starter
 
 This is a template repository for authoring books using AsciiDoc.
