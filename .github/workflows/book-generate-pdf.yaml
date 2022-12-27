@@ -1,0 +1,25 @@
+name: book-generate-pdf
+run-name: "Generate Book PDF"
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    container:
+      image: asciidoctor/docker-asciidoctor
+      volumes:
+        - ${{ github.workspace }}:/documents
+    steps:
+      - uses: actions/checkout@v3
+      - name: "asciidoctor-pdf"
+        working-directory: ./book
+        run: |
+          asciidoctor-pdf \
+            -a pdf-themesdir=themes \
+            -a pdf-theme=basic \
+            -a pdf-fontsdir=fonts \
+            index.adoc
