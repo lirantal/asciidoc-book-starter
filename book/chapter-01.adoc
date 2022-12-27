@@ -1,0 +1,65 @@
+= Chapter: How planet systems work?
+
+The following are planets:
+
+. Earth
+.. Earth more
+.. Earth more more
+. Mars
++
+image::space.jpeg[outer space]
+. Jupiter
+. Saturn
+
+== Icons in Space
+
+All of the following icons can be used: https://fontawesome.com/v4/icons/
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+
+icon:battery-full[] And a battery icon
+
+icon:github[] GitHub icon
+
+icon:code-fork[] Code forking icon
+
+=== Tables in Space
+
+.This is the optional title of the table
+|===
+|Name of Column 1 |Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+== Source code snippets in Space
+
+A source code snippet for the Fastify application:
+
+[source,javascript,linenums]
+----
+// Require the framework and instantiate it
+const fastify = require('fastify')({ logger: true })
+
+fastify.get('/', async (request, reply) => { // <.>
+  return { hello: 'world' }
+})
+
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 }) // <.>
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+start()
+----
+<.> Declare a GET route at /
+<.> Run the server!
