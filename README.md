@@ -29,7 +29,31 @@ Book generation:
 
 ## Getting Started
 
-TBD
+We start off by getting familiar with the repository structure and the various files that are part of it.
+
+The top-level directory structure looks like this:
+
+```
+.
+├── README.md
+├── book
+│   ├── chapter-01.adoc
+│   ├── preface.adoc
+│   ├── foreword.adoc
+│   ├── index.adoc
+│   ├── fonts/
+│   ├── images/
+│   └── themes/
+├── create-book-epub.sh
+├── create-book-pdf.sh
+└── interactive-asciidoctor-shell.sh
+```
+
+The `book` directory is where the book content is stored:
+- The `index.adoc` file is the main entry point for the book, and it's where we include all the other chapters and prelude chapters.
+- The `images/` directory is where you can store images that are used in the book.
+- The `chapter-01.adoc` is an example chapter that you can use as a template for your own chapters.
+- In the same directory, you'll find the theme-able PDF `themes` directory, and the `fonts` directory which contains the fonts used in the book.
 
 ## Building the book
 
