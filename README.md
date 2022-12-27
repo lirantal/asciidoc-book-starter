@@ -57,7 +57,19 @@ The `book` directory is where the book content is stored:
 
 ## Building the book
 
-TBD
+### Building the book locally
+
+To build the book locally, you'll need to have Docker installed on your machine. Once you have Docker installed, you can run the following command to build the book in PDF format:
+
+```bash
+./create-book-pdf.sh
+```
+
+Then you can find the generated PDF file in the `book` directory. If you're on a macOS, you can open it with your default PDF reader as follows:
+
+```bash
+open book/index.pdf
+```
 
 ## Assets
 
