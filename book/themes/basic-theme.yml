@@ -1,0 +1,71 @@
+# This theme extends the default theme:
+#     https://github.com/asciidoctor/asciidoctor-pdf/blob/master/data/themes/default-theme.yml
+extends: default
+
+font:
+  catalog:
+    merge: true
+    Open Sans:
+      normal: OpenSans/OpenSans/OpenSans-Regular.ttf 
+      bold: OpenSans/OpenSans/OpenSans-Bold.ttf
+      italic: OpenSans/OpenSans/OpenSans-BoldItalic.ttf
+      bold_italic: OpenSans/OpenSans-Italic-VariableFont_wdth,wght.ttf
+    Source Code Pro:
+      normal: SourceCodePro/SourceCodePro-Regular.ttf
+      bold: SourceCodePro/SourceCodePro-Bold.ttf
+      italic: SourceCodePro/SourceCodePro-Italic.ttf
+      bold_italic: SourceCodePro/SourceCodePro-BoldItalic.ttf
+    Bundled M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+    Bundled Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    Noto Sans:
+      normal: GEM_FONTS_DIR/notosans-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notosans-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notosans-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notosans-bold_italic-subset.ttf
+
+base:
+  font_color: 1d1d1d
+  font-family: Open Sans
+  font_size: 12
+  line_height: 1.2
+
+code:
+  font:
+    family: Source Code Pro
+    size: 10
+
+literal:
+  font-family: Source Code Pro
+  font-color: 000000
+  background-color: f7f7f8
+
+admonition:
+  font-size: $base-font-size - 4
+  text-align: left
+
+outline-list:
+  text-align: left
+
+sidebar:
+  align: left  
+
+toc:
+  font_size: 14
+
+vertical-spacing: 26
+
+prose:
+  margin-bottom: 16 
+
+table:
+  caption-side: bottom
+  font:
+    size: 12
