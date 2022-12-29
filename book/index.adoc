@@ -13,8 +13,8 @@
 :toc: left
 :toclevels: 4
 :toc-title: Table of Contents
-:description: Example AsciiDoc document
-:keywords: AsciiDoc
+:description: HTML meta tag content for description
+:keywords: HTML meta tag content for keywords
 
 `pygments-style` options for source code highlighting:
 
