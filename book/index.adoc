@@ -19,6 +19,10 @@
 :pdfmark: true
 :imagesdir: ./images
 :xrefstyle: short
+:source-highlighter: pygments
+:pygments-style: vs
+:pygments-linenums-mode: table
+:source-language: javascript
 
 `pygments-style` options for source code highlighting:
 
