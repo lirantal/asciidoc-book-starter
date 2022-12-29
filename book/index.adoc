@@ -3,6 +3,9 @@
 :creator: {author}
 :copyright: 2023 Mike Willson
 :email: mike@lirantal.com
+:revnumber: v1.0
+:revdate: 01.01.2022
+:revremark: First draft
 :doctype: book
 :leveloffset: +1
 :front-cover-image: image:./images/cover.jpeg[width=1700,height=2800]
