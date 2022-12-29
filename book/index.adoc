@@ -16,6 +16,7 @@
 :description: HTML meta tag content for description
 :keywords: HTML meta tag content for keywords
 :icons: font
+:pdfmark: true
 
 `pygments-style` options for source code highlighting:
 
