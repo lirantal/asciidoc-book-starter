@@ -15,6 +15,7 @@
 :toc-title: Table of Contents
 :description: HTML meta tag content for description
 :keywords: HTML meta tag content for keywords
+:icons: font
 
 `pygments-style` options for source code highlighting:
 
