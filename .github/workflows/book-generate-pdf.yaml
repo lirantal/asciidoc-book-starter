@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+env:
+  BOOK_SOURCE_DIR: ${{ github.workspace }}/book
+  BOOK_BUILD_DIR: ${{ github.workspace }}/build
 
 jobs:
   build-pdf:
@@ -20,15 +23,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "asciidoctor-pdf"
-        working-directory: ./book
         run: |
           asciidoctor-pdf \
-            -a pdf-themesdir=themes \
+            -a pdf-themesdir=$BOOK_SOURCE_DIR/themes \
             -a pdf-theme=basic \
-            -a pdf-fontsdir=fonts \
-            index.adoc
+            -a pdf-fontsdir=$BOOK_SOURCE_DIR/fonts \
+            $BOOK_BUILD_DIR/index.adoc
       - name: "Save generated book PDF as build artifact"
         uses: actions/upload-artifact@v3
         with:
-          name: book-pdf
-          path: book/index.pdf
+          name: book
+          path: build
