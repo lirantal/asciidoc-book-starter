@@ -8,7 +8,7 @@
 :revremark: First draft
 :doctype: book
 :leveloffset: +1
-:front-cover-image: image:./images/cover.jpeg[width=1700,height=2800]
+:front-cover-image: image:cover.jpeg[width=1700,height=2800]
 :sectnums:
 :toc: left
 :toclevels: 4
@@ -17,6 +17,7 @@
 :keywords: HTML meta tag content for keywords
 :icons: font
 :pdfmark: true
+:imagesdir: ./images
 
 `pygments-style` options for source code highlighting:
 
