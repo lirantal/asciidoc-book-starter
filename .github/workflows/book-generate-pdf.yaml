@@ -5,6 +5,10 @@ on:
   pull_request:
     branches:
       - main
+  push:
+    branches:
+      - main
+
 
 jobs:
   build-pdf:
@@ -23,3 +27,8 @@ jobs:
             -a pdf-theme=basic \
             -a pdf-fontsdir=fonts \
             index.adoc
+      - name: "Save generated book PDF as build artifact"
+        uses: actions/upload-artifact@v3
+        with:
+          name: book-pdf
+          path: book/index.pdf
