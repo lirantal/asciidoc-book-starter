@@ -9,6 +9,7 @@
 :doctype: book
 :leveloffset: +1
 :front-cover-image: image:./images/cover.jpeg[width=1700,height=2800]
+:sectnums:
 
 `pygments-style` options for source code highlighting:
 
