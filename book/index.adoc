@@ -18,6 +18,7 @@
 :icons: font
 :pdfmark: true
 :imagesdir: ./images
+:xrefstyle: short
 
 `pygments-style` options for source code highlighting:
 
