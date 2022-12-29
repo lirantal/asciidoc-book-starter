@@ -3,3 +3,4 @@ book/*.epub
 book/*.mobi
 book/*.html
 book/*.pdfmark
+build/
