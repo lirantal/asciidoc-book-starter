@@ -28,7 +28,8 @@ jobs:
             -a pdf-themesdir=$BOOK_SOURCE_DIR/themes \
             -a pdf-theme=basic \
             -a pdf-fontsdir=$BOOK_SOURCE_DIR/fonts \
-            $BOOK_BUILD_DIR/index.adoc
+            -D $BOOK_BUILD_DIR \
+            $BOOK_SOURCE_DIR/index.adoc
       - name: "Save generated book PDF as build artifact"
         uses: actions/upload-artifact@v3
         with:
