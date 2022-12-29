@@ -4,6 +4,7 @@
 :copyright: 2023 Mike Willson
 :email: mike@lirantal.com
 :leveloffset: +1
+:front-cover-image: image:./images/cover.jpeg[width=1700,height=2800]
 
 `pygments-style` options for source code highlighting:
 
@@ -21,75 +22,11 @@ This is the optional preamble (an untitled section body). Useful for
 writing simple sectionless documents consisting only of a preamble.
 
 include::preface.adoc[]
+
 include::foreword.adoc[]
 
-= Chapter 1
+include::chapter-01-The-Beginning/content.adoc[]
 
-My name is {author}.
-Some text
+include::chapter-02-The-Rocket/content.adoc[]
 
-[.text-center]
-_The future is here, but some people are still using legacy databases._
-
-Do you think that `fastify.ready()` is a good function call or should
-we be calling `fastify.listen()` instead?
-
-Docker allows to package the full stack in a container:
-
-* OS
-** Windows
-** Ubuntu
-* JVM
-* App server
-* Application with its configuration
-
-include::chapter-01.adoc[]
-
-== Chapter 2
-
-****
-
-[discrete]
-=== Chapter Summary
-To float in Space what you really need is a rocket.
-A rocket is a device that can take you from the ground to space.
-
-[discrete]
-=== Sections
-
-1. Rockets
-2. Spaceships
-3. Space
-
-****
-
-More text comes here...
-
-== Which section is this...
-
-Here are the other built-in admonition types:
-
-NOTE: Some additional info...
-
-.My header for the tip
-[TIP]
-====
-Think of c1..c2 as _all commits as of c1 (not including c1) until commit
-c2._
-====
-
-IMPORTANT: Don't forget...
-
-[WARNING]
-====
-This is a warning
-====
-
-CAUTION: Ensure that...
-
-Now print a block quote:
-
-[quote, Ben Parker, Spiderman Movie]
-____
-With great power comes great responsibility.
-____
+include::chapter-03-How-Planet-Systems-Work/content.adoc[]

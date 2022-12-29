@@ -1,0 +1,19 @@
+= Chapter 1: The Beginning
+
+My name is {author}.
+Some text
+
+[.text-center]
+_The future is here, but some people are still using legacy databases._
+
+Do you think that `fastify.ready()` is a good function call or should
+we be calling `fastify.listen()` instead?
+
+Docker allows to package the full stack in a container:
+
+* OS
+** Windows
+** Ubuntu
+* JVM
+* App server
+* Application with its configuration

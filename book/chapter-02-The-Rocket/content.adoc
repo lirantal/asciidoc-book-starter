@@ -1,0 +1,48 @@
+== Chapter 2: The Rocket
+
+****
+
+[discrete]
+=== Chapter Summary
+To float in Space what you really need is a rocket.
+A rocket is a device that can take you from the ground to space.
+
+[discrete]
+=== Sections
+
+1. Rockets
+2. Spaceships
+3. Space
+
+****
+
+More text comes here...
+
+== Which section is this...
+
+Here are the other built-in admonition types:
+
+NOTE: Some additional info...
+
+.My header for the tip
+[TIP]
+====
+Think of c1..c2 as _all commits as of c1 (not including c1) until commit
+c2._
+====
+
+IMPORTANT: Don't forget...
+
+[WARNING]
+====
+This is a warning
+====
+
+CAUTION: Ensure that...
+
+Now print a block quote:
+
+[quote, Ben Parker, Spiderman Movie]
+____
+With great power comes great responsibility.
+____

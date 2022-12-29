@@ -1,4 +1,6 @@
-= Chapter: How planet systems work?
+:imagesdir: chapter-03-How-Planet-Systems-Work/images
+
+= Chapter 3: How planet systems work?
 
 The following are planets:
 

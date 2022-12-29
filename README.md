@@ -2,7 +2,7 @@
 
 This is a template repository for authoring books using AsciiDoc.
 
-I've briefly explored other formats such as Markdown, Latex, and Pandoc but I've found AsciiDoc to be the most flexible and powerful format for authoring books. It is easily readable and writable to a human, has a lax syntax and good set of defaults for authoring books, and it can be easily converted to other formats such as PDF, EPUB and HTML.
+I've briefly explored other formats such as Markdown, Latex, and Pandoc but I've found AsciiDoc to be the most flexible and powerful format for authoring books. It is easily readable and writable to a human, has a lax syntax and good set of defaults for authoring books, and it can be easily converted to other formats such as PDF, ePUB and HTML.
 
 AsciiDoc is also a very powerful format for authoring technical documentation, and is widely used in the media and content publishing industry, such as in O'Reilly's books.
 
@@ -25,7 +25,7 @@ Book authoring experience provides the following features with this repository:
 Book generation:
 - No need for a local installation of Asciidoctor, as the book generation is done via Docker.
 - No need for special CI setup, as the book generation is done via Docker.
-- Docker-based scripts to generate the book in various formats, including PDF, HTML and EPUB.
+- Docker-based scripts to generate the book in various formats, including PDF, HTML and ePUB.
 
 ## Getting Started with AsciiDoc Book Starter
 
@@ -41,10 +41,17 @@ The top-level directory structure looks like this:
 │   ├── preface.adoc
 │   ├── foreword.adoc
 │   ├── index.adoc
+│   ├── chapter-01-The-Beginning
+│   │   ├── content.adoc
+│   ├── chapter-02-The-Rocket
+│   │   ├── content.adoc
+│   ├── chapter-03-How-Planet-Systems-Work
+│   │   ├── content.adoc
+│   │   └── images
 │   ├── fonts/
 │   ├── images/
 │   └── themes/
-├── create-book-epub.sh
+├── create-book-ePUB.sh
 ├── create-book-pdf.sh
 └── interactive-asciidoctor-shell.sh
 ```
@@ -52,7 +59,7 @@ The top-level directory structure looks like this:
 The `book` directory is where the book content is stored:
 - The `index.adoc` file is the main entry point for the book, and it's where we include all the other chapters and prelude chapters.
 - The `images/` directory is where you can store images that are used in the book.
-- The `chapter-01.adoc` is an example chapter that you can use as a template for your own chapters.
+- Chapters are written in their own directory, and each chapter directory contains a `content.adoc` file which is the main entry point for the chapter, and an optional `images` directory for images that are used in the chapter. This helps to colocate assets for the same chapter together rather than having them all mixed together in one big directory.
 - In the same directory, you'll find the theme-able PDF `themes` directory, and the `fonts` directory which contains the fonts used in the book.
 
 ## Generate the AsciiDoc book
@@ -74,7 +81,7 @@ open book/index.pdf
 ### Helpful AsciiDoc Scripts
 
 The asciidoc book starter repository also provides a few helpful scripts to help you generate other book output formats and debug the asciidoctor tool:
-- `create-book-epub.sh` - Generates the book in EPUB format.
+- `create-book-ePUB.sh` - Generates the book in ePUB format.
 - `interactive-asciidoctor-shell.sh` - Starts an interactive shell inside the Docker image with the `asciidoctor` tool installed.
 
 ## AsciiDoc Book Assets
