@@ -22,6 +22,11 @@ test('take screenshot of element', async ({ page }) => {
   await page.waitForSelector('.vue--popularity-chart-dropdown__options', { state: 'attached' });
   await page.locator('label').filter({ hasText: 'Download trend' }).click({force: true});
 
+  const scriptJsContent = `
+    document.querySelector('#popularity p').style.visibility="hidden";
+  `;
+  await page.addScriptTag({ content: scriptJsContent });
+
   await element.screenshot({ path: 'figure1-1.png' });
 
 });
