@@ -23,7 +23,7 @@ test('take screenshot of element', async ({ page }) => {
   await page.locator('label').filter({ hasText: 'Download trend' }).click({force: true});
 
   const scriptJsContent = `
-    document.querySelector('#popularity p').style.visibility="hidden";
+    document.querySelectorAll('#popularity p').forEach(elem => elem.style.visibility="hidden");
   `;
   await page.addScriptTag({ content: scriptJsContent });
 
