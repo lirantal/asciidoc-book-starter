@@ -1,0 +1,97 @@
+extends:
+  - default
+  - ./basic-theme.yml
+
+base:
+  font-color: #FFFFFF
+  font-family: Open Sans
+  font-size: 10
+  line-height: 1.2
+  border-color: #ddddd8
+
+page:
+  background-color: #222222
+
+header:
+  font-color: #666666
+
+heading:
+  font-color: $base-font-color
+
+link:
+  font-color: #BD7435
+
+codespan:
+  font-color: #4EDEB9
+
+mark:
+  background-color: #0000FF
+
+kbd:
+  background-color: #0A0A0A
+  border-color: #333333
+
+title-page:
+  title:
+    font-color: #FFFFFF
+  authors:
+    font-color: #E7E7E7
+
+abstract:
+  font-color: #A39D99
+
+admonition:
+  background-color: #0A0A0A
+  column-rule-color: $base-border-color
+  icon:
+    caution:
+      stroke-color: #40CBFF
+    note:
+      stroke-color: #E6BF83
+    tip:
+      stroke-color: #EEEEEE
+    warning:
+      stroke-color: #4096FF
+
+quote:
+  border-color: $base-border-color
+  background-color: #0A0A0A
+  cite:
+    font-color: #666666
+
+verse:
+  border-color: $quote-border-color
+  cite:
+    font-color: $quote-cite-font-color
+
+code:
+  font-color: $base-font-color
+  background-color: #0A0A0A
+  border-color: #333333
+
+conum:
+  font-color: $codespan-font-color
+
+example:
+  background-color: #0A0A0A
+  border-color: $base-border-color
+  font-color: $base-font-color
+
+sidebar:
+  font-color: $base-font-color
+  background-color: #0A0A0A
+  border-color: #1A1A1A
+  title:
+    font-color: $heading-font-color
+
+thematic-break:
+  border-color: $base-border-color
+
+table:
+  background-color: $page-background-color
+  border-color: #222222
+  foot:
+    background-color: $table-background-color
+
+footer:
+  border-color: #222222
