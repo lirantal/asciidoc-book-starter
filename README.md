@@ -71,7 +71,13 @@ The `book` directory is where the book content is stored:
 To build the book locally, you'll need to have Docker installed on your machine. Once you have Docker installed, you can run the following command to build the book in PDF format:
 
 ```bash
-./create-book-pdf.sh
+./create-book-pdf.sh basic
+```
+
+Or, generate a dark-mode themed PDF book:
+
+```bash
+./create-book-pdf.sh dark
 ```
 
 Then you can find the generated PDF file in the `book` directory. If you're on a macOS, you can open it with your default PDF reader as follows:
