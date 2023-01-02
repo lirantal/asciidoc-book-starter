@@ -70,6 +70,17 @@ admonition:
   border-style: dashed
   font-kerning: none
   padding: 1cm
+  icon:
+    tip:
+      size: 20
+      # icon name specified as:
+      # <icon set>-<icon name>
+      # all prawn iconn sets are supported, see: https://github.com/jessedoyle/prawn-icon/tree/master
+      name: fas-fire
+      stroke-color: #FF0000
+  # icon:
+  #   tip:
+  #     image: bulb.png
 
 list:
   text-align: left
