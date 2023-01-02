@@ -76,3 +76,6 @@ image:
   caption:
     end: bottom
     text-align: center
+
+link:
+  font-color: #002FA7
