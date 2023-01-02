@@ -16,7 +16,7 @@ image::space.jpeg["Outer space"]
 
 == Icons in Space
 
-All of the following icons can be used: https://fontawesome.com/v4/icons/
+All of the https://fontawesome.com/v4/icons[Font Awesome] icons can be used:
 
 icon:comment[] This is a comment icon
 
@@ -27,6 +27,10 @@ icon:battery-full[] And a battery icon
 icon:github[] GitHub icon
 
 icon:code-fork[] Code forking icon
+
+Here is an example of a footnote:
+
+A bold statement!footnote:disclaimer[Opinions are my own.]
 
 === Tables in Space
 
