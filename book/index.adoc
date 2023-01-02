@@ -10,6 +10,7 @@
 :leveloffset: +1
 :front-cover-image: image:cover.jpeg[width=1700,height=2800]
 :sectnums:
+:sectlinks:
 :toc: left
 :toclevels: 4
 :toc-title: Table of Contents
