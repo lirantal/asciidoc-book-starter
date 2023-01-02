@@ -78,9 +78,8 @@ admonition:
       # all prawn iconn sets are supported, see: https://github.com/jessedoyle/prawn-icon/tree/master
       name: fas-fire
       stroke-color: #FF0000
-  # icon:
-  #   tip:
-  #     image: bulb.png
+      # or, instead of an icon you can provide an image:
+      # image: bulb.png
 
 list:
   text-align: left
