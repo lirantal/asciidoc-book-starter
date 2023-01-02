@@ -49,8 +49,9 @@ A bold statement!footnote:disclaimer[Opinions are my own.]
 
 A source code snippet for the Fastify application:
 
-.A Fastify application file
 [source,javascript,linenums,highlight=2;12-13]
+:snippetFilename: ./index.js
+.{snippetFilename}
 ----
 // Require the framework and instantiate it
 const fastify = require('fastify')({ logger: true })
