@@ -9,7 +9,7 @@ The following are planets:
 .. Earth more more
 . Mars
 +
-image::space.jpeg[outer space]
+image::space.jpeg["Outer space"]
 . Jupiter
 . Saturn
 
