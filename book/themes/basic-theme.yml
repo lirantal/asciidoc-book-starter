@@ -37,6 +37,18 @@ base:
   font_size: 12
   line_height: 1.2
 
+# see definitions here: https://github.com/prawnpdf/pdf-core/blob/0.6.0/lib/pdf/core/page_geometry.rb#L16-L68
+# technical books recommendation is 8.5x11in
+# see leanpub article on this: http://help.leanpub.com/en/articles/2794627-why-does-each-ebook-size-only-correspond-to-a-subset-of-the-print-ready-pdf-export-sizes-also-how-can-i-make-a-7-x-10-or-a-7-5-x-9-25-print-ready-pdf
+# and http://help.leanpub.com/en/articles/2247421-what-pdf-book-sizes-do-you-offer-under-custom-themes
+page:
+  layout: portrait
+  margin: [0.5in, 0.67in, 1in, 0.67in]
+  margin-inner: 1.25in
+  margin-outer: 0.75in
+  #size: A4
+  size: 8.5in x 11in
+
 code:
   font:
     family: Source Code Pro
