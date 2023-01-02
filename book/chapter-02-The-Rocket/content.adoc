@@ -68,3 +68,5 @@ Now print a block quote:
 ____
 With great power comes great responsibility.
 ____
+
+The text after a prose block quote

@@ -25,6 +25,8 @@
 :pygments-linenums-mode: table
 :source-language: javascript
 
+The following is a bunch of text:
+
 `pygments-style` options for source code highlighting:
 
 * friendly
