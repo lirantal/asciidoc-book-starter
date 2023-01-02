@@ -9,7 +9,7 @@ BOOK_BUILD_DIR=build
 
 docker run --rm -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-pdf \
     -a pdf-themesdir=$BOOK_SOURCE_DIR/themes \
-    -a pdf-theme=basic \
+    -a pdf-theme=$1 \
     -a pdf-fontsdir=$BOOK_SOURCE_DIR/fonts \
     -D $BOOK_BUILD_DIR \
     $BOOK_SOURCE_DIR/index.adoc
