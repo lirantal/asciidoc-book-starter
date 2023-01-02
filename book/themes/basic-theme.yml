@@ -42,7 +42,7 @@ code:
     family: Source Code Pro
     size: 10
 
-literal:
+codespan:
   font-family: Source Code Pro
   font-color: 000000
   background-color: f7f7f8
@@ -51,7 +51,7 @@ admonition:
   font-size: $base-font-size - 4
   text-align: left
 
-outline-list:
+list:
   text-align: left
 
 sidebar:
