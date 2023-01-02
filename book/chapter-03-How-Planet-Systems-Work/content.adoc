@@ -49,6 +49,7 @@ A bold statement!footnote:disclaimer[Opinions are my own.]
 
 A source code snippet for the Fastify application:
 
+.A Fastify application file
 [source,javascript,linenums,highlight=2;12-13]
 ----
 // Require the framework and instantiate it
@@ -70,3 +71,10 @@ start()
 ----
 <.> Declare a GET route at /
 <.> Run the server!
+
+And also we can show you how a Sidebar looks like:
+
+.Mint
+[sidebar]
+Mint has visions of global conquest.
+If you don't plant it in a container, it will take over your garden.
