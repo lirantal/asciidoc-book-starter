@@ -1,14 +1,14 @@
-== The Rocket
+= The Rocket
 
 ****
 
 [discrete]
-=== Chapter Summary
+== Chapter Summary
 To float in Space what you really need is a rocket.
 A rocket is a device that can take you from the ground to space.
 
 [discrete]
-=== Sections
+== Sections
 
 1. Rockets
 2. Spaceships
