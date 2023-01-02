@@ -69,3 +69,10 @@ table:
   caption-side: bottom
   font:
     size: 12
+
+image:
+  width: 100%
+  align: center
+  caption:
+    end: bottom
+    text-align: center
