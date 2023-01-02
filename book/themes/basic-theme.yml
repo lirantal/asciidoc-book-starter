@@ -32,10 +32,10 @@ font:
       bold_italic: GEM_FONTS_DIR/notosans-bold_italic-subset.ttf
 
 base:
-  font_color: 1d1d1d
+  font-color: 1d1d1d
   font-family: Open Sans
-  font_size: 12
-  line_height: 1.2
+  font-size: 12
+  line-height: 1.2
 
 # see definitions here: https://github.com/prawnpdf/pdf-core/blob/0.6.0/lib/pdf/core/page_geometry.rb#L16-L68
 # technical books recommendation is 8.5x11in
@@ -62,6 +62,14 @@ codespan:
 admonition:
   font-size: $base-font-size - 4
   text-align: left
+  column-rule-color: #000000
+  column-rule-width: 0.5
+  background-color: #f7f7f8
+  border-color: #E6E8FA
+  border-radius: 4
+  border-style: dashed
+  font-kerning: none
+  padding: 1cm
 
 list:
   text-align: left
