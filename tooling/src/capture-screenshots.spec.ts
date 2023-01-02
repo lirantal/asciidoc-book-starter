@@ -27,6 +27,10 @@ test('take screenshot of element', async ({ page }) => {
   `;
   await page.addScriptTag({ content: scriptJsContent });
 
+  // take screenshot
   await element.screenshot({ path: 'figure1-1.png' });
 
+  // as an alternative to the above removal of HTML elements we can 
+  // take screenshot of element but mask out the text
+  // await element.screenshot({ path: 'figure1-1.png', mask: [page.locator('#popularity p')]});
 });
