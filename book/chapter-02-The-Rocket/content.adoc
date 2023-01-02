@@ -18,6 +18,28 @@ A rocket is a device that can take you from the ground to space.
 
 More text comes here...
 
+[source,javascript,linenums,highlight=2;12-13]
+:snippetFilename: ./index.js
+.{snippetFilename}
+----
+// Require the framework and instantiate it
+const fastify = require('fastify')({ logger: true })
+
+fastify.get('/', async (request, reply) => { // <.>
+  return { hello: 'world' }
+})
+
+const start = async () => {
+  try {
+    await fastify.listen({ port: 3000 }) // <.>
+  } catch (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+}
+start()
+----
+
 == Which section is this...
 
 Here are the other built-in admonition types:

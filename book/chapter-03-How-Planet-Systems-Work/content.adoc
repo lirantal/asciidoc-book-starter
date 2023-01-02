@@ -73,6 +73,14 @@ start()
 <.> Declare a GET route at /
 <.> Run the server!
 
+Also considering styling the book's source code highlight
+using:
+
+----
+:source-highlighter: rouge
+:rouge-style: base16.monokai
+----
+
 And also we can show you how a Sidebar looks like:
 
 .Mint
