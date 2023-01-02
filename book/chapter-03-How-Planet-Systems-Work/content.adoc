@@ -16,7 +16,7 @@ image::space.jpeg["Outer space"]
 
 == Icons in Space
 
-All of the https://fontawesome.com/v4/icons[Font Awesome] icons can be used:
+All of the https://fontawesome.com/v4/icons[Font Awesome]footnote:[https://fontawesome.com/v4/icons] icons can be used:
 
 icon:comment[] This is a comment icon
 
