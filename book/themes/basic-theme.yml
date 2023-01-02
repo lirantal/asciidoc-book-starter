@@ -91,3 +91,10 @@ image:
 
 link:
   font-color: #002FA7
+
+conum:
+  font-color: #000000
+  line-height: 1.2
+  font-size: 12
+  font-kerning: none
+  glyphs: filled
