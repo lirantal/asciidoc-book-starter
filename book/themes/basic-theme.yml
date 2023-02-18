@@ -43,6 +43,10 @@ base:
 # and http://help.leanpub.com/en/articles/2247421-what-pdf-book-sizes-do-you-offer-under-custom-themes
 page:
   layout: portrait
+  # apply a higher margin size instead of 0.75in
+  # to be able to squeeze in the page to centered
+  # across a shorter line length
+  # try: 1.45in on both sides
   margin: [0.85in, 0.75in, 1in, 0.75in]
   margin-inner: 1.25in
   margin-outer: 0.75in
