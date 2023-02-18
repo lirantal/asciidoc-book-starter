@@ -122,3 +122,11 @@ conum:
   font-size: 12
   font-kerning: none
   glyphs: filled
+    
+footer:
+  recto:
+    right:
+      content: '{chapter-title} | *{page-number}*'
+  verso:
+    left:
+      content: '*{page-number}* | {chapter-title}'
