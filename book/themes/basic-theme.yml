@@ -60,8 +60,10 @@ code:
 
 codespan:
   font-family: Source Code Pro
-  font-color: #FF0000
-  background-color: f7f7f8
+  font-color: #232229
+  background-color: #eedffd
+  border-radius: 3
+  border-offset: 2
 
 admonition:
   font-size: $base-font-size - 4
