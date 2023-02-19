@@ -44,20 +44,34 @@ start()
 
 Here are the other built-in admonition types:
 
+====
+*General section*
+
+This is something you should definitely consider doing every time
+that you write a paragraph. The reason is that it makes it easier
+to read and understand.
+====
+
 NOTE: Some additional info...
 
 .My header for the tip
 [TIP]
 ====
-Think of c1..c2 as _all commits as of c1 (not including c1) until commit
-c2._
+*WARNING*
+
+This is something you should definitely consider doing every time
+that you write a paragraph. The reason is that it makes it easier
+to read and understand.
 ====
 
 IMPORTANT: Don't forget...
 
 [WARNING]
 ====
-This is a warning
+icon:warning[] *WARNING*
+
+This warning admonition type is styled in a way that uses 0 font size
+so that it is not visible in the PDF output.
 ====
 
 CAUTION: Ensure that...
