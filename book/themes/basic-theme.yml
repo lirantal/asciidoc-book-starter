@@ -66,26 +66,56 @@ codespan:
   border-offset: 2
 
 admonition:
-  font-size: $base-font-size - 4
+  font-size: $base-font-size
   text-align: left
-  column-rule-color: #000000
+  column-rule-color: #eeeeee
   column-rule-width: 0.5
-  background-color: #f7f7f8
+  background-color: #FFFFFF
   border-color: #E6E8FA
-  border-radius: 4
+  border-radius: 3
   border-style: dashed
   font-kerning: none
-  padding: 1cm
+  font-style: normal
+  padding: 0.3cm
+  label:
+    warning:
+      font-size: 0
+      font-color: #ffffff
   icon:
-    tip:
-      size: 20
+    warning:
+      size: 0
+      padding: 0
       # icon name specified as:
       # <icon set>-<icon name>
-      # all prawn iconn sets are supported, see: https://github.com/jessedoyle/prawn-icon/tree/master
+      # all prawn icon sets are supported, see: https://github.com/jessedoyle/prawn-icon/tree/master
       name: fas-fire
-      stroke-color: #FF0000
+      stroke-color: #000000
       # or, instead of an icon you can provide an image:
       # image: bulb.png
+
+admonition_tip:
+  background-color: #ede8fa
+  border-color: #872de6
+  font-size: $base-font-size
+  text-align: left
+  # column-rule-color: #872de6
+  # column-rule-width: 0.5
+  border-radius: 3
+  border-style: dashed
+  font-kerning: none
+  padding: 0.3cm
+
+admonition_warning:
+  background-color: #ede8fa
+  border-color: #872de6
+  font-size: $base-font-size
+  text-align: left
+  column-rule-color: #872de6
+  column-rule-width: 3
+  border-radius: 3
+  border-style: dashed
+  font-kerning: none
+  padding: 0.3cm
 
 list:
   text-align: left
