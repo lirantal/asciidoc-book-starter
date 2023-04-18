@@ -39,7 +39,6 @@ The top-level directory structure looks like this:
 .
 ├── README.md
 ├── book
-│   ├── chapter-01.adoc
 │   ├── preface.adoc
 │   ├── foreword.adoc
 │   ├── index.adoc
@@ -53,7 +52,7 @@ The top-level directory structure looks like this:
 │   ├── fonts/
 │   ├── images/
 │   └── themes/
-├── create-book-ePUB.sh
+├── create-book-epub.sh
 ├── create-book-pdf.sh
 └── interactive-asciidoctor-shell.sh
 ```
