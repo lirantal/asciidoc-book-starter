@@ -18,6 +18,9 @@
 :description: HTML meta tag content for description
 :keywords: HTML meta tag content for keywords
 :icons: font
+:pdf-themesdir: {docdir}/themes
+:pdf-fontsdir: {docdir}/fonts
+:pdf-theme: basic
 :pdfmark: true
 :imagesdir: ./images
 :xrefstyle: short
