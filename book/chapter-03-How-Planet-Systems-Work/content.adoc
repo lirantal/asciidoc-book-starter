@@ -1,4 +1,7 @@
+:imagesdir: images
+ifeval::["{docname}" == "index"]
 :imagesdir: chapter-03-How-Planet-Systems-Work/images
+endif::[]
 
 = How planet systems work?
 
