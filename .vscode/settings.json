@@ -1,5 +1,5 @@
 {
-    "asciidoc.use_asciidoctorpdf": true,
+    "asciidoc.pdf.engine": "asciidoctor-pdf",
     "asciidoc.preview.useEditorStyle": false,
     "asciidoc.preview.style": "book/themes/"
 }
